@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.body{
+    height: 100vh;
+    background-color: rgb(43, 196, 43);
+    
+
+}
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#temp{
+    text-align: center;
+
+}
+#temp #temp-unit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    
+    color: bisque;
+}
+
+#climate{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: bisque;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#location{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: bisque;
+    text-align: center;
+    
+    
+}
+
+
+
+#temp-icon{
+    margin: 3rem;
+    width: 40%;
+    height: auto;
+}
+
+main{
+    padding: 0%;
+    margin-top: 10px;
+    background-color: rgb(130, 70, 185);
+    border-radius: 20px;
+    width: 360px;
+    height: 380px;
+    display: block;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: skyblue;
+}
+
+#temp #temp-value{
+    color: rgb(222, 220, 255);
+}
+
+
+#search-button{
+    color: rgb(40, 165, 165);
+    text-transform: uppercase;
+    background: white;
+    border-radius: 3px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid white;
+    display: inline-block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#search-button:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(129, 118, 14);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) ;
+}
+
+#search-input{
+    width: 200px;
+    overflow: hidden;
+    margin: 8px 0;
+    padding: 8px 0;
+    font-size: 15px;
+    border-bottom: 3px solid rgb(87, 9, 87);
+    color: rgb(2, 8, 8);
+    outline: none;
+    background: none;
+    
+
+}
+input{
+    border: none;
+}
